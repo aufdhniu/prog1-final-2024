@@ -41,10 +41,9 @@ def draw(my_turtle, digit):
     if digit == 2:
         my_turtle.goto(-50, 100)
         my_turtle.pendown()
-        my_turtle.forward(100)
-        my_turtle.right(90)
-        my_turtle.forward(100)
-        my_turtle.right(90)
+        for i in range(2):
+            my_turtle.forward(100)
+            my_turtle.right(90)
         my_turtle.forward(100)
         my_turtle.left(90)
         my_turtle.forward(100)
